@@ -1,1 +1,23 @@
+# Executables
 *.exe
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Libraries
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+
+# Debug symbols
+*.pdb
+
+# Code Runner temporary files
+tempCodeRunnerFile.c
+
+# VS Code
+.vscode/
