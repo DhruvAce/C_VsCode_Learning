@@ -1,5 +1,0 @@
-{
-    "files.autoSave": "onFocusChange",
-    "terminal.integrated.suggest.runOnEnter": "always",
-    "C_Cpp.default.compilerPath": "C:/MinGW/bin/gcc.exe"
-}
