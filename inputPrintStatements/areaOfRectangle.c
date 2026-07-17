@@ -6,8 +6,12 @@ float calculateArea(float length, float width)
     return length*width;
 }
 
-int main()
+float calculatePerimeter(float length, float width)
+{
+    return 2*(length + width);
+}
 
+int main()
 {
     float length, width;
     printf("Enter the length of the rectangle: ");
@@ -17,6 +21,7 @@ int main()
     scanf("%f", &width);
 
     printf("The area of rectangle for length \"%.5f\" and width \"%.5f\" is : \"%.5f\"\n", length, width, calculateArea(length, width));
+    printf("The perimeter of rectangle for length \"%.5f\" and width \"%.5f\" is : \"%.5f\"\n", length, width, calculatePerimeter(length, width));
 
     printf("\nPress Enter to exit...");
     getchar(); // Consumes the Enter left by scanf
