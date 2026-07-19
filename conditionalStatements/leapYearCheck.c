@@ -11,20 +11,21 @@ int main()
     
 
 
-    if(year %4 == 0)
+    if((year % 400 == 0) || (year % 4 == 0) && year % 100 != 0)
     {
-        printf("%d is a leap year", year);
+
+        printf("%d is a leap year\n", year);
     }
     else
     {
-        printf("%d is not a leap year", year);
+            printf("%d is not a leap year", year);
     }
 
 
     printf("\nPress Enter to exit...");
     getchar(); // Consumes the Enter left by scanf
-    getchar(); // Waits for you to press Enter 
+    getchar(); // Waits for you to press Enter ~
 
-    
+
     return 0;
 }
