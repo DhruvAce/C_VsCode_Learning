@@ -26,6 +26,10 @@ int main()
     {
         printf("Invalid");
     }
+    
+    printf("\nPress Enter to exit...");
+    getchar(); // Consumes the Enter left by scanf
+    getchar(); // Waits for you to press Enter 
 
     return 0;
 }

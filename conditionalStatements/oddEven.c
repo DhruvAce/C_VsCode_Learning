@@ -3,20 +3,18 @@
 int main()
 {
 
-    int a, b;
+    int num;
 
-    printf("Enter 1st num   : ");
-    scanf("%d", &a);
-    printf("Enter 2nd num   : ");
-    scanf("%d", &b);
+    printf("Enter Number    : ");
+    scanf("%d, &num");
 
-    if(a == b)
+    if(num %2 == 0)
     {
-        printf("Its a Equal Number \n");
+        printf("Even");
     }
     else
     {
-        printf("Not Equal Number \n");
+        printf("Odd");
     }
 
     printf("\nPress Enter to exit...");

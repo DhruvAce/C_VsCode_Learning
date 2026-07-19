@@ -19,6 +19,10 @@ int main()
     if(!isValidMarks(marksObtained, totalMarks)) //validation.c validation.h
     {
         printf("Invalid marks entered!\n");
+        
+            printf("\nPress Enter to exit...");
+            getchar(); // Consumes the Enter left by scanf
+            getchar(); // Waits for you to press Enter 
         return 0;
     }
     
