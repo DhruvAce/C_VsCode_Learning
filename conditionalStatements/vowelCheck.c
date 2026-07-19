@@ -10,11 +10,11 @@ int main()
 
     if(word == 'a' || word == 'e' || word == 'i' || word == 'o' || word == 'u')
     {
-        printf("%c is a vowel", word);
+        printf("%c is a vowel\n", word);
     }
     else
     {
-        printf("%c is a constant", word);
+        printf("%c is a consonant\n", word);
     }
 
     printf("\nPress Enter to exit...");
