@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main()
+{
+
+    int year;
+
+
+    printf("Enter year      : ");
+    scanf("%d", &year);
+    
+
+
+    if(year %4 == 0)
+    {
+        printf("%d is a leap year", year);
+    }
+    else
+    {
+        printf("%d is not a leap year", year);
+    }
+
+
+    printf("\nPress Enter to exit...");
+    getchar(); // Consumes the Enter left by scanf
+    getchar(); // Waits for you to press Enter 
+
+    
+    return 0;
+}
