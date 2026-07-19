@@ -31,5 +31,5 @@ int main()
     getchar(); // Consumes the Enter left by scanf
     getchar(); // Waits for you to press Enter 
 
-    return 0;
+    return 0; 
 }
