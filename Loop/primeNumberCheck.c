@@ -13,10 +13,10 @@ int main()
             count++;
     }
 
-    if(count > 1 && count == 2)
-        printf("Yes, %d is a Prime Number\n", num);
-    else
-        printf("No, %d is not a Prime Number\n", num);
+    printf(count > 1 && count == 2 ? "Yes, %d is a Prime Number\n"
+                        : "No, %d is not a Prime Number\n",
+            num);
+
 
     printf("\nPress Enter to exit...");
     getchar(); // Consumes the Enter left by scanf
