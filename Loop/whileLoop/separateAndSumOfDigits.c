@@ -1,3 +1,7 @@
+/*
+Separating Digits and Calculating its Sum
+*/
+
 #include <stdio.h>
 
 int main()
